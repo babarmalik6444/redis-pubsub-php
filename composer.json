@@ -1,0 +1,19 @@
+{
+    "name": "babar-malik/redis-pubsub",
+    "require": {
+        "predis/predis": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Babar Afzaal"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Helper.php"
+        ]
+    }
+}
